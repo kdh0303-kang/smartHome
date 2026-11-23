@@ -1,0 +1,25 @@
+# Microchip Studio / Visual Studio
+.vs/
+Debug/
+Release/
+*.atsuo
+*.suo
+*.user
+*.componentinfo.xml
+
+# AVR-GCC 빌드 산출물
+*.o
+*.d
+*.elf
+*.map
+*.lss
+*.eep
+*.srec
+
+# 제출용 .hex는 hex/ 폴더에 복사해서 커밋
+!hex/*.hex
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
